@@ -1,0 +1,157 @@
+html {
+  scroll-behavior: smooth;
+}
+ body{ font-family: 'Cabin', sans-serif; }
+
+.sticky {
+	z-index: 1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+	
+  padding-top: 102px;
+}
+
+.first-container{
+	background-color:rgb(34,56,73);
+	padding-top:10px;
+	}
+.sec-contaner{
+	color:#FFF;
+	}
+.top-header-link li a{
+	color:#FFF;
+	text-decoration:none;
+	}
+.second-ul{
+	text-align:right;
+	}
+.navbar-default{
+	border:none;
+	background-image:url(../img/vectorgif.gif);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	font-size:18px;	
+	padding-bottom:10px;
+	border-radius:0px;
+	padding-top:10px;
+	}	
+.img-profile{
+	width:130px;
+	height:130px;
+	border-radius:50%;
+	}
+.name-style{
+	color:#FFF;
+	margin-top:10px;
+	font-size:36px;
+	}	
+.navbar-default .navbar-collapse{
+	margin-top:30px;
+	}		
+.navbar-default .navbar-collapse ul li a{
+	color:#FFF;
+	text-align:right;
+	
+	}
+	
+.main-img{
+	width:100%; 
+	margin-top:-20px; 
+	height:500px;
+	}
+.blog-col-8{
+	border-right:1px solid #CCC;
+	}				
+
+.blog-container{
+	background-image:url(img/mainimg1.jpg); 
+	background-position:center; 
+	background-repeat:no-repeat; 
+	background-size:cover;
+	}
+.heading-style{
+	text-align:justify;
+	color:#999;
+	}		
+.date-style{
+	text-align:right; 
+	font-size:16px; 
+	margin-top:20px;
+	color:#666;
+	}
+.border-style{
+	border-bottom:2.5px solid #666;
+	 margin-bottom:15px;
+	}		
+.footer-container{
+	background-color:rgb(34,56,73);
+	}
+.footer-style {
+	text-align:center;
+	}	
+.footer-style li a{
+	color:#FFF;
+	text-decoration:none;
+	font-size:18px;
+	}		
+@media screen and (max-width: 986px) {
+.first-ul{
+	text-align:center;
+	}
+.second-ul{
+	text-align:center;
+	}
+	.navbar-default{
+	border:none;
+	background-image:url(../img/vectorgif.gif);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	font-size:18px;	
+	padding-bottom:10px;
+	border-radius:0px;
+	padding-top:6px;
+	min-height:160px;
+	}	
+	.img-profile{
+	width:150px;
+	height:150px;
+	}
+	.name-style{
+	color:#FFF;
+	margin-top:40px;
+	font-size:20px;
+	}	
+.navbar-header{
+	margin-right:-30px;
+	}
+.navbar-default .navbar-header .navbar-toggle{
+	background-color:transparent;
+	border:none;
+	}		
+.navbar-default .navbar-header .icon-bar{
+		background-color:#FFF;
+		}
+.navbar-default .navbar-collapse{
+	border-top:none;
+	}
+.navbar-default .navbar-collapse ul li a{
+	color:#FFF;
+	text-align:right;
+	}	
+.main-img{
+	width:100%; 
+	margin-top:-20px; 
+	height:auto;
+	}	
+.blog-col-8{
+	border-right:none;
+	}				
+		
+}
+
