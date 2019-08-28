@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
  body{ font-family: 'Cabin', sans-serif; }
-
+/*
 .sticky {
 	z-index: 1;
   position: fixed;
@@ -14,7 +14,7 @@ html {
 	
   padding-top: 102px;
 }
-
+*/
 .first-container{
 	background-color:rgb(34,56,73);
 	padding-top:10px;
@@ -30,6 +30,7 @@ html {
 	text-align:right;
 	}
 .navbar-default{
+	margin-top: 40px;
 	border:none;
 	background-image:url(../img/vectorgif.gif);
 	background-position:center;
@@ -49,6 +50,7 @@ html {
 	color:#FFF;
 	margin-top:10px;
 	font-size:36px;
+	margin-left: -60px;
 	}	
 .navbar-default .navbar-collapse{
 	margin-top:30px;
@@ -98,8 +100,26 @@ html {
 	color:#FFF;
 	text-decoration:none;
 	font-size:18px;
-	}		
-@media screen and (max-width: 986px) {
+	}
+
+@media screen and (max-width: 1024px) {
+	.img-profile{
+		width:130px;
+		height:130px;
+		border-radius:50%;
+	}
+	.name-style{
+		color:#FFF;
+		margin-top:35px;
+		font-size:20px;
+		margin-left: 0px;
+	}
+
+
+}
+
+
+@media screen and (max-width: 768px) {
 .first-ul{
 	text-align:center;
 	}
@@ -107,6 +127,7 @@ html {
 	text-align:center;
 	}
 	.navbar-default{
+		margin-top: 70px;
 	border:none;
 	background-image:url(../img/vectorgif.gif);
 	background-position:center;
@@ -124,11 +145,12 @@ html {
 	}
 	.name-style{
 	color:#FFF;
-	margin-top:40px;
 	font-size:20px;
+		margin-top: 0px;
 	}	
 .navbar-header{
 	margin-right:-30px;
+	margin-top: -50px;
 	}
 .navbar-default .navbar-header .navbar-toggle{
 	background-color:transparent;
@@ -153,5 +175,36 @@ html {
 	border-right:none;
 	}				
 		
+}
+
+@media screen and (max-width: 600px) {
+
+	.navbar-default{
+		margin-top: 70px;
+	}
+}
+
+
+@media screen and (max-width: 400px) {
+	.navbar-default{
+		margin-top: 90px;
+	}
+	.img-profile{
+		width:150px;
+		height:150px;
+
+	}
+
+	.name-style{
+		color:#FFF;
+		margin-top: 0px;
+		font-size:20px;
+
+	}
+
+	.navbar-header{
+		margin-top: -50px;
+	}
+
 }
 
